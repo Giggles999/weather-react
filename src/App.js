@@ -1,14 +1,14 @@
-import './App.css';
+import "./App.css";
+import Search from "./Search";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
-        <p>
-         Hello World
-        </p>
-       
+        <h1> Weather Search function </h1>
+        <Search />
+        <Footer />
       </header>
     </div>
   );
