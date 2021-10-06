@@ -11,10 +11,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 .App-body {
@@ -22,6 +20,28 @@
   min-height: 20vh;
 }
 
+.App h1{
+  font-size: calc(15px + 2vmin);
+  font-weight: 500;
+  line-height: 29px;
+}
+
 li {
   list-style: none;
+  text-align: center;
+}
+
+p {
+  border: 1px solid #dadde1;
+  padding: 0px 25px 0px 0px;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.2s;
+  color: blueviolet;
 }
