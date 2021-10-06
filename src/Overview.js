@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Overview.css";
+
 
 export default function City(props) {
   let [temperature, setTemperature] = useState(props.temperature);
