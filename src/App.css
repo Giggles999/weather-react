@@ -17,6 +17,11 @@
   color: #61dafb;
 }
 
+.App-body {
+  background-color: rgb(243, 232, 232);
+  min-height: 20vh;
+}
+
 li {
   list-style: none;
 }
