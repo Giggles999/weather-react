@@ -13,6 +13,7 @@
   color: white;
   font-weight: 100;
   letter-spacing: 2px;
+
 }
 
 .App-body {
@@ -21,27 +22,8 @@
 }
 
 .App h1{
-  font-size: calc(15px + 2vmin);
+  font-size: calc(20px + 2vmin);
   font-weight: 500;
   line-height: 29px;
-}
-
-li {
-  list-style: none;
-  text-align: center;
-}
-
-p {
-  border: 1px solid #dadde1;
-  padding: 0px 25px 0px 0px;
-}
-
-a,
-a:active,
-a:hover,
-a:visited {
-  display: inline-block;
-  text-decoration: none;
-  transition: 0.2s;
-  color: blueviolet;
+  padding: 25px;
 }
