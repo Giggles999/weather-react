@@ -40,6 +40,7 @@ function App() {
       </header>
 <body className="App-body">
             <h2>Forecast</h2>
+            <div class="row mt-5">
             <div class="col-md-2">
               <p>
                 <ul>
@@ -101,7 +102,7 @@ function App() {
                 </ul>
               </p>
               </div>
-       
+       </div>
 </body>
       <Footer />
     </div>
